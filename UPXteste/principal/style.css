@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar, .footer {
+    background-color: #28a745;
+}
+
+.navbar-brand, .footer-text {
+    color: #fff;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+}
+
+.animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: #28a745;
+    margin: 0 auto;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
